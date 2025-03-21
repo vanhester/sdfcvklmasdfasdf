@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="login-pf">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
+
+            <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Авторизация в СЦОС</title>
+    <link rel="icon" href="/resources/ovi62/login/rucert-theme/img/favicon.ico" />
+            <link href="/resources/ovi62/login/rucert-theme/web_modules/@patternfly/react-core/dist/styles/base.css" rel="stylesheet" />
+            <link href="/resources/ovi62/login/rucert-theme/web_modules/@patternfly/react-core/dist/styles/app.css" rel="stylesheet" />
+            <link href="/resources/ovi62/login/rucert-theme/node_modules/patternfly/dist/css/patternfly.min.css" rel="stylesheet" />
+            <link href="/resources/ovi62/login/rucert-theme/node_modules/patternfly/dist/css/patternfly-additions.min.css" rel="stylesheet" />
+            <link href="/resources/ovi62/login/rucert-theme/lib/pficon/pficon.css" rel="stylesheet" />
+            <link href="/resources/ovi62/login/rucert-theme/css/custom.css" rel="stylesheet" />
+</head>
+
+<body class="">
+
+    <div class="login-pf-page">
+        <div class="body-background"></div>
+
+        <div class="logo-main">
+            <div class="logo-left-cont">
+                <img class="logo-left" src="/resources/ovi62/login/rucert-theme/img/white_logo.svg"/>
+
+            </div>
+            <div class="logo-right-cont">
+                <img class="logo-right" src="/resources/ovi62/login/rucert-theme/img/minobr-logo.png"/>
+            </div>
+        </div>
+
+        <div class="card-pf ">
+            <header class="login-pf-header">
+              <h1 id="kc-page-title">        Вход
+
+</h1>
+            </header>
+            <div id="kc-content">
+                <div id="kc-content-wrapper">
+
+
+        <div id="kc-form">
+            <div id="kc-form-wrapper">
+                    <form id="kc-form-login" onsubmit="login.disabled = true; return true;" action="https://auth.online.edu.ru/realms/portfolio/login-actions/authenticate?session_code=BnqOO5VoDB4P5eSgJBsPLbGsKQPgfSVyEHCFgtu_AP8&amp;execution=b4b00dc2-7eac-4cbb-a1d2-417e29d0881f&amp;client_id=sevsu.ru&amp;tab_id=ZfAF-HwqN3U" method="post">
+                        <div class="form-group">
+                                <input tabindex="1" id="username" class="form-control form-input-with-icon" name="username" value=""  type="text" autofocus autocomplete="off"
+                                       placeholder="Имя пользователя или почта"/>
+                                <div class="form-icon form-icon-username"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <input tabindex="2" id="password" class="form-control form-input-with-icon" name="password" type="password" autocomplete="off"
+                                   placeholder="Пароль"/>
+                            <div class="form-icon form-icon-psw"></div>
+                        </div>
+
+                        <div class="form-group login-pf-settings">
+                            <div id="kc-form-options">
+                                    <div class="checkbox">
+                                        <label>
+                                                <input tabindex="3" id="rememberMe" name="rememberMe" class="form-checkbox" type="checkbox"/>
+                                                <label for="rememberMe" class="form-label-gray">Запомнить меня</label>
+                                        </label>
+                                    </div>
+                            </div>
+                            <div class="">
+                                    <span><a tabindex="5" href="/realms/portfolio/login-actions/reset-credentials?client_id=sevsu.ru&amp;tab_id=ZfAF-HwqN3U">Забыли пароль?</a></span>
+                            </div>
+                        </div>
+
+                        <div id="kc-form-buttons" class="form-group">
+                            <input type="hidden" id="id-hidden-input" name="credentialId" />
+                            <input tabindex="4" class="btn btn-primary btn-block btn-lg" name="login" id="kc-login" type="submit" value="Вход"/>
+                        </div>
+                    </form>
+            </div>
+        </div>
+
+                            <div id="kc-info" class="login-pf-signup">
+                                <div id="kc-info-wrapper" class="">
+
+            <h3>Или воспользуйтесь другим методом аутентификации:</h3>
+            <div id="kc-social-providers">
+                    <span class="social-provider">
+                        <a href="/realms/portfolio/broker/ESIA/login?client_id=sevsu.ru&amp;tab_id=ZfAF-HwqN3U&amp;session_code=BnqOO5VoDB4P5eSgJBsPLbGsKQPgfSVyEHCFgtu_AP8" id="zocial-ESIA" class="zocial oidc ESIA">
+                            <div class="ESIA"></div>
+                        </a>
+                    </span>
+            </div>
+
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
